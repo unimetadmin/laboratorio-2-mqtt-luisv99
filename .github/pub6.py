@@ -19,7 +19,7 @@ def main():
     client.connect(host='localhost')
     hora_actual = datetime.datetime.now()
     while(True):
-        #capacidad de hielos de la nevera
+        #Tanque de agua
         time.sleep(1)
         capacidad_tanque = 100
         media = 10

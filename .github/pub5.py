@@ -22,7 +22,7 @@ def main():
     client.connect(host='localhost')
     hora_actual = datetime.datetime.now()
     while(True):
-        #capacidad de hielos de la nevera
+        #Temperatura de Caracas
         hora_actual = hora_actual + datetime.timedelta(minutes=45)
         owm = OWM('965a331e559460571664166472115691') #API KEY
         mgr = owm.weather_manager()
